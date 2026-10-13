@@ -1,0 +1,11 @@
+wiser_env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Ignore large binary data arrays and checkpoint weights for clean git push
+evaluation/*.npy
+evaluation/*/*.npy
+evaluation/*.pt
+evaluation/*/*.pt
